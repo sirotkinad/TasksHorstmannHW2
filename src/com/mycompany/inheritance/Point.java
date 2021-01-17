@@ -2,7 +2,7 @@ package com.mycompany.inheritance;
 
 import java.util.Objects;
 
-public class Point implements Cloneable{
+public class Point implements Cloneable{  //ex1
 
     protected double x;
     protected double y;

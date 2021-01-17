@@ -6,7 +6,7 @@ public class LabeledPoint extends Point{
 
     private String label;
 
-    public LabeledPoint(String label, double x, double y) {
+    public LabeledPoint(String label, double x, double y) {   //ex1
         super(x, y);
         this.label = label;
     }
@@ -29,7 +29,7 @@ public class LabeledPoint extends Point{
         if (o == null || getClass() != o.getClass()) return false;
         if (!super.equals(o)) return false;
         LabeledPoint that = (LabeledPoint) o;
-        return Double.compare(x, that.x) == 0 &&  //x, that.x - OK because Labeled Point is subclass, fields of superclass are protected(ex 3)
+        return Double.compare(x, that.x) == 0 &&
                 Double.compare(y, that.y) == 0 &&
                 label.equalsIgnoreCase(that.label);
     }

@@ -1,6 +1,6 @@
 package com.mycompany.inheritance;
 
-public class Line extends Shape{
+public class Line extends Shape{ //ex4
 
     private Point to;
 

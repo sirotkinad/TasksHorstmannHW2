@@ -1,6 +1,6 @@
 package com.mycompany.inheritance;
 
-public class Rectangle extends Shape{
+public class Rectangle extends Shape{  //ex4
 
     private double width;
     private double height;

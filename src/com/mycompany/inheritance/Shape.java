@@ -1,6 +1,6 @@
 package com.mycompany.inheritance;
 
-public abstract class Shape {
+public abstract class Shape {  //ex4
 
    private  Point p;
 
@@ -13,8 +13,8 @@ public abstract class Shape {
     }
 
     public void moveBy(double dx, double dy){
-        p.setX(p.getX() + dx); //p.x - error, protected fields of Point are avalaible only for instance LabeledPoint(ex 3)
-        p.setY(p.getY() + dy);
+        p.setX(p.x + dx);
+        p.setY(p.y + dy);
     }
 
     public abstract Point getCenter();

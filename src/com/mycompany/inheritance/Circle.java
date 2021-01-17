@@ -1,6 +1,6 @@
 package com.mycompany.inheritance;
 
-public class Circle extends Shape{
+public class Circle extends Shape{  //ex4
 
     private double radius;
 
